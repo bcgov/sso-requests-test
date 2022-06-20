@@ -90,7 +90,7 @@
         border-bottom-right-radius: ${6}px;
       }
 
-      ${t=>!t.readOnly&&"\n        &:hover {\n          background-color: #4950FA;\n          color: #fff;\n          cursor: pointer;\n        }\n        &.active {\n          background-color: #4950FA;\n          color: #fff;\n          font-weight: bold;\n        }\n      "}
+      ${t=>!t.readOnly&&"\n        &.active {\n          background-color: #4950FA;\n          color: #fff;\n          font-weight: bold;\n        }\n        &:hover {\n          background-color: #fdb913;\n          color: #fff;\n          cursor: pointer;\n        }\n      "}
     }
   }
 
